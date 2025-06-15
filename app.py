@@ -236,7 +236,7 @@ import requests
 def get_groq_verdict(claim):
     url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer (GROQAPI_KEY)",
         "Content-Type": "application/json"
     }
 
